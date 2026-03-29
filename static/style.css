@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+
+}
+
+textarea {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+nav {
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 4em;
+}
+body {
+    font-family: Arial;
+}
+header {
+    background: #333;
+    padding: 10px;
+    border-radius:10px ;
+   
+}
+header a {
+    color: white;
+    margin-right: 10px;
+    margin-top: 1px;
+    text-decoration: none;
+}
+.container {
+    padding: 20px;
+}
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+.book {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+.library-form input {
+    
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 5px;
+
+}
+.author img{
+    width: 300px;
+    border-radius: 5em;
+    display: flex;
+    margin-bottom:1% ;
+    margin-left: 4%;
+    
+}
+.author-title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+}
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 35em;
+    background-color: rgb(196, 196, 196);
+    border-radius: 6em;
+}   
+
+.opis {
+    font-size: 3rem;
+    margin-top:-5em ;
+    margin-left:1em;
+
+}
+
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* border-radius: 15px; */
+    width: 98.9%;
+    height: 8%;
+    position: absolute;
+    margin-right: 0%;
+    margin-bottom: -42.8%;
+    
+    
+}
+a {
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+footer a {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}

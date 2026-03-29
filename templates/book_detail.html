@@ -1,0 +1,8 @@
+{%- extends "base.html" -%}
+{%- block content -%}
+<h1>{{ book[1] }}</h1>
+<p>Автор: {{ book[2] }}</p>
+<p>Опис: {{ book[3] }}</p>
+<p>Рік видання: {{ book[4] }}</p>
+<img src="{{ book[5] }}" width="200">
+{% endblock %}
